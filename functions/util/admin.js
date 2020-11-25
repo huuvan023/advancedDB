@@ -6,4 +6,4 @@ firebase.default.initializeApp(config)
 //database
 const db = firebase.default.firestore()
 
-module.exports = { admin,db }
+module.exports = { admin,db, firebase }
